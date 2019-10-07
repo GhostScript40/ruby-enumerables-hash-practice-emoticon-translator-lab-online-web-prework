@@ -26,6 +26,6 @@ def get_japanese_emoticon(the_file, get_em)
       #binding.pry
 end
 
-def get_english_meaning
+def get_english_meaning(the_file, em)
   # code goes here
 end
