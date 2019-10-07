@@ -35,5 +35,4 @@ def get_english_meaning(the_file, em)
   else
     return em
   end
-  load_library(the_file)
 end
