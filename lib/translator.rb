@@ -30,10 +30,10 @@ def get_english_meaning(the_file, em)
  solution = load_library(the_file) 
   sorry_message = "Sorry, that emoticon was not found"
   en = solution[:get_emoticon][em]
-  if em == nil
+  if en == nil
     return sorry_message
   else
-    return em
+    return en
   end
   load_library(the_file)
 end
