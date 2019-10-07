@@ -27,11 +27,13 @@ def get_japanese_emoticon(the_file, get_em)
 end
 
 def get_english_meaning(the_file, em)
- results = load_library(the_file) 
+ solution = load_library(the_file) 
   sorry_message = "Sorry, that emoticon was not found"
-  english = results[:get_emoticon][get_em]
-  if english == nil
+  en = solution[:get_emoticon][em]
+  if em == nil
     return sorry_message
   else
-    return english
+    return em
+  end
+  load_library(the_file)
 end
