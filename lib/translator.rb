@@ -30,4 +30,5 @@ def get_english_meaning(the_file, em)
  solution = load_library(the_file) 
   sorry_message = "Sorry, that emoticon was not found"
   meaning = solution[:get_meaning][em]
+  binding.pry
 end
